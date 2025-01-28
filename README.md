@@ -96,10 +96,27 @@ Projekt został podzielony na kilka klas, z których każda odpowiada za inny el
 
 ---
 
-## Uruchomienie i Testy
+## Testy różnych kombinacji warstw przeprowadzone w Tensorboard
 
-- Główny pipeline jest zaimplementowany w klasie **App**, którą można wywołać w pliku głównym (np. `main.py` albo tym, który zawiera `if __name__ == "__main__": app.run()`).
-  
-- Testy jednostkowe wykorzystują moduł `unittest`. Aby je uruchomić, wystarczy wykonać:
-  ```bash
-  python nazwa_pliku_z_kodem.py
+![Testy warstw w Tensorboard](tensorboard.png)
+
+Zapisaliśmy logi kilku wytrenowanych modeli w Tensorboard i kierując się wartością Loss wybraliśmy model z następującymi warstwami:
+
+```python
+Input(shape=(*self.config.image_size, 3)),  # Input layer
+Conv2D(32, (3, 3), activation='relu'),
+MaxPooling2D(2, 2),
+Conv2D(64, (3, 3), activation='relu'),
+MaxPooling2D(2, 2),
+Conv2D(128, (3, 3), activation='relu'),
+MaxPooling2D(2, 2),
+Dropout(0.3),
+Conv2D(128, (3, 3), activation='relu'),
+MaxPooling2D(2, 2),
+Flatten(),
+Dense(128, activation='relu'),
+Dropout(0.3),
+Dense(64, activation='relu'),
+Dense(32, activation='relu'),
+Dense(1, activation='sigmoid')
+```
