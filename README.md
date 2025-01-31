@@ -87,13 +87,12 @@ Projekt został podzielony na kilka klas, z których każda odpowiada za inny el
 
 ## Wymagane Biblioteki
 
-- `tensorflow` (preferowana wersja 2.x)
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `sklearn`
+- `tensorflow wersja 2.18.0` (preferowana wersja 2.x)
+- `numpy wersja: 1.26.4`
+- `matplotlib wersja 3.8.4`
+- `seaborn 0.13.2`
+- `scikit-learn 1.4.2`
 - `unittest`
-
 ---
 
 ## Testy różnych kombinacji warstw przeprowadzone w Tensorboard
