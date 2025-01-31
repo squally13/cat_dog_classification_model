@@ -127,7 +127,7 @@ scikit-learn version: 1.4.2
 
 unittest
 
-! [Testing Various Layer Combinations in TensorBoard](tensorboard.png)
+![Testing Various Layer Combinations in TensorBoard](tensorboard.png)
 
 
 We saved logs of several trained models in TensorBoard and, based on the Loss value, selected the best model with the following layers:
