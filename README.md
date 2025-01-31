@@ -150,4 +150,4 @@ Dense(32, activation='relu'),
 Dense(1, activation='sigmoid')
 ```
 
-# Note: Project originally was done on on PC - thus the main project commits are from one team-member.
+# Note: Project originally was done on one PC - thus the main project commits are from one team-member.
