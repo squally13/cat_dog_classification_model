@@ -1,6 +1,6 @@
-# Projekt: Klasyfikacja Obrazów (Kot vs Pies)
+## Projekt: Klasyfikacja Obrazów (Kot vs Pies)
 
-## Opis Projektu
+### Opis Projektu
 
 Jest to projekt zaliczeniowy z modułu uczenia maszynowego, którego celem jest stworzenie i wytrenowanie modelu klasyfikującego zdjęcia na dwie kategorie: **kot** lub **pies**.  
 Model został zaimplementowany w języku Python z wykorzystaniem biblioteki **TensorFlow** (Keras) do uczenia głębokich sieci neuronowych. Dodatkowo korzystamy z bibliotek **scikit-learn** (m.in. do podziału danych i obliczania wag klas), **matplotlib** oraz **seaborn** (do wizualizacji), a także **unittest** (do testów jednostkowych).
