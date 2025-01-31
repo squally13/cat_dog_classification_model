@@ -87,11 +87,11 @@ Projekt został podzielony na kilka klas, z których każda odpowiada za inny el
 
 ## Wymagane Biblioteki
 
-- `tensorflow wersja 2.18.0` (preferowana wersja 2.x)
+- `tensorflow wersja: 2.18.0` (preferowana wersja 2.x)
 - `numpy wersja: 1.26.4`
-- `matplotlib wersja 3.8.4`
-- `seaborn 0.13.2`
-- `scikit-learn 1.4.2`
+- `matplotlib wersja: 3.8.4`
+- `seaborn wersja: 0.13.2`
+- `scikit-learn wersja: 1.4.2`
 - `unittest`
 ---
 
