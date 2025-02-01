@@ -119,3 +119,8 @@ Dense(64, activation='relu'),
 Dense(32, activation='relu'),
 Dense(1, activation='sigmoid')
 ```
+
+
+## Uwaga: Projekt był pierwotnie realizowany na jednym komputerze – dlatego główne commit'y w projekcie pochodzą od jednego członka zespołu.
+
+![11](https://github.com/user-attachments/assets/2f3d1688-391e-416c-9c0c-07d72ed135ce)
