@@ -153,3 +153,6 @@ Dense(1, activation='sigmoid')
 ```
 
 ## Note: Project originally was done on one PC - thus the main project commits are from one team-member.
+
+![11](https://github.com/user-attachments/assets/70e52962-ad0d-419c-b1a2-bed23a682754)
+
